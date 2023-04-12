@@ -20,13 +20,6 @@ header {
   width: 100%;
 }
 
-.pokemonCard {
-  border-radius: 20px;
-  border: 1px solid #ffdd56;
-  margin-bottom: 2.5rem;
-  background: none;
-}
-
 nav {
   padding: 50px;
   display: flex;
