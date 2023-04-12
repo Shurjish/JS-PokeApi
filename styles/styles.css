@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom right, #024, #402);
+}
+
+#app {
+  height: 100%;
+  padding-top: 0px;
+  font-family: Cinzel Decorative, sans-serif;
+}
+
+.pokedexLogo {
+  height: 100px;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pokemonCard {
+    border-radius: 20px;
+  border: 1px solid #ffdd56;
+  margin-bottom: 2.5rem;
+  background: none;
+  
+}
+
+
+
+nav{
+    padding: 50px;
+    display: flex;
+    align-content: stretch;
+    justify-content:space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+div {
+    border-radius: 20px;
+    border: 1px solid #ffdd56;
+    margin: 10px;
+    background: none;
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    background-image: url(https://pm1.narvii.com/7243/1932c3243860328e1f1cd07d65e02649672380ecr1-700-444v2_hq.jpg);
+    background-size: cover;
+}
+
+.PokemonImg {
+height: 150px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: antiquewhite;
+}
