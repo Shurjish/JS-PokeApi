@@ -1,4 +1,4 @@
-let pokeGallery = document.getElementById('pokeGallery');
+let pokeGallery = document.getElementById("pokeGallery");
 
 let arrayPokemon = [];
 let firstGen = 151;
@@ -19,11 +19,13 @@ let mapPokemon = (pokemon) => {
 };
 
 let draw = (mapedPokemon) => {
-  pokeGallery.innerHTML = '';
+  pokeGallery.innerHTML = "";
   for (let pokemon of mapedPokemon) {
-    let divCard = document.createElement('div');
+    let divCard = document.createElement("div");
     divCard.innerHTML = `
-    <img src='${pokemon.pokeImg}' alt='${pokemon.pokeName}' class = 'PokemonImg'>
+    <img src='${pokemon.pokeImg}' alt='${
+      pokemon.pokeName
+    }' class = 'PokemonImg'>
     <h2>${pokemon.pokeName}</h2>
     <p>#${pokemon.pokeId.toString().padStart(3, 0)}</p>
     `;
@@ -55,7 +57,5 @@ let init = async () => {
   draw(mapedPokemon);
   takeInput(mapedPokemon);
 };
-
-
 
 init();

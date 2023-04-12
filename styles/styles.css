@@ -1,7 +1,6 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -22,48 +21,45 @@ header {
 }
 
 .pokemonCard {
-    border-radius: 20px;
+  border-radius: 20px;
   border: 1px solid #ffdd56;
   margin-bottom: 2.5rem;
   background: none;
-  
 }
 
-
-
-nav{
-    padding: 50px;
-    display: flex;
-    align-content: stretch;
-    justify-content:space-evenly;
-    align-items: baseline;
-    flex-wrap: wrap;
-    width: 90%;
+nav {
+  padding: 50px;
+  display: flex;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
+  width: 90%;
 }
 
 div {
-    border-radius: 20px;
-    border: 1px solid #ffdd56;
-    margin: 10px;
-    background: none;
-    height: 200px;
-    width: 150px;
-    display: inline-block;
-    background-image: url(https://pm1.narvii.com/7243/1932c3243860328e1f1cd07d65e02649672380ecr1-700-444v2_hq.jpg);
-    background-size: cover;
+  border-radius: 20px;
+  border: 1px solid #ffdd56;
+  margin: 10px;
+  background: none;
+  height: 200px;
+  width: 150px;
+  display: inline-block;
+  background-image: url(https://pm1.narvii.com/7243/1932c3243860328e1f1cd07d65e02649672380ecr1-700-444v2_hq.jpg);
+  background-size: cover;
 }
 
 .PokemonImg {
-height: 150px;
+  height: 150px;
 }
 
 h2 {
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
 }
 
 p {
-    text-align: center;
-    color: antiquewhite;
+  text-align: center;
+  color: antiquewhite;
 }
